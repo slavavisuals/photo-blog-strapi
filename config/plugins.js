@@ -5,6 +5,18 @@ module.exports = ({env}) => ({
             cloud_name: env('CLOUDINARY_NAME'),
             api_key: env('CLOUDINARY_KEY'),
             api_secret: env('CLOUDINARY_SECRET'),
+        },
+        actionOptions: {
+
+            upload: {
+      
+              folder: "posts",
+      
+              use_filename: true,
+      
+              unique_filename: false
+      
+            }
         }
     }
 })
