@@ -32,6 +32,11 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "photo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.blog-photo"
     }
   }
 }
